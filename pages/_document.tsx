@@ -6,7 +6,7 @@ export default function Document() {
             <Head>
                 <meta
                     content="AI Financial Autopilot"
-                    name="Tesseract AI"
+                    name="Tesseract"
                 />
                 <meta content="Tesseract AI" property="og:title" />
                 <meta

@@ -95,13 +95,13 @@ const RightSidebar = ({ className, visible }: RightSidebarProps) => {
                         </button>
                     )}
                 </div>
-                <div className="grow overflow-y-auto scroll-smooth px-6 md:px-3">
+                {/* <div className="grow overflow-y-auto scroll-smooth px-6 md:px-3">
                     {clean ? (
                         <ChatEmpty />
                     ) : (
                         chatHistory.map((x) => <ChatItem item={x} key={x.id} />)
                     )}
-                </div>
+                </div> */}
                 <div className="absolute left-0 right-0 bottom-0 p-6">
                     <Link className="btn-dark w-full" href="/">
                         <Icon name="plus" />
