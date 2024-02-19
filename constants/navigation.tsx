@@ -1,13 +1,13 @@
 export const navigation = [
     {
-        title: "Stock Market k",
-        icon: "image-check",
+        title: "Stock Market Research",
+        icon: "dataflow",
         color: "#8E55EA",
         url: "/photo-editing",
     },
     {
-        title: "Video generation",
-        icon: "play-circle",
+        title: "Tax Audit",
+        icon: "codepen",
         color: "#D84C10",
         url: "/video-generation",
     },

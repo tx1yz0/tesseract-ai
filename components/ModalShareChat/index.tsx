@@ -15,7 +15,7 @@ type ModalShareChatProps = {
 
 const ModalShareChat = ({ visible, onClose }: ModalShareChatProps) => {
     const [link, setLink] = useState<string>(
-        "https://ui8.net/ui8/products/brainwave-ai-ui-design-kit"
+        "https://tesseract.garden"
     );
     const [selectedOptions, setSelectedOptions] = useState([]);
     const [copied, setCopied] = useState<boolean>(false);

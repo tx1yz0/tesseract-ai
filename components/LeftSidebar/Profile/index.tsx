@@ -14,7 +14,7 @@ const Profile = ({ visible }: ProfileProps) => (
         }`}
     >
         <div className={`${!visible && "p-2.5 bg-n-6 rounded-xl"}`}>
-            <div
+            {/* <div
                 className={`flex items-center ${
                     visible ? "justify-center" : "px-2.5 py-2.5 pb-4.5"
                 }`}
@@ -32,10 +32,10 @@ const Profile = ({ visible }: ProfileProps) => (
                     <>
                         <div className="ml-4 mr-4">
                             <div className="base2 font-semibold text-n-1">
-                                Tran Mau Tri Tam
+                                Tesseract Intern
                             </div>
                             <div className="caption1 font-semibold text-n-3/50">
-                                tam@ui8.net
+                                intern@tesseract.garden
                             </div>
                         </div>
                         <div className="shrnik-0 ml-auto self-start px-3 bg-primary-2 rounded-lg caption1 font-bold text-n-7">
@@ -43,7 +43,7 @@ const Profile = ({ visible }: ProfileProps) => (
                         </div>
                     </>
                 )}
-            </div>
+            </div> */}
             {!visible && (
                 <Link className="btn-stroke-dark w-full mt-2" href="/pricing">
                     Upgraded to Pro

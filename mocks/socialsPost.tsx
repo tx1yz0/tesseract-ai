@@ -4,7 +4,7 @@ export const socailsPost = [
         icon: "/images/twitter.svg",
         content:
             "Find top talent in a snap with our new Hiring Platform Mobile App! Streamline your recruitment process now.",
-        link: "https://brainwave.ui8.net/shortlink/01234",
+        link: "https://tesseract.garden",
         tags: ["Hiring", "MobileApp", "Recruitment", "HRTech"],
         images: [
             {
@@ -18,7 +18,7 @@ export const socailsPost = [
         icon: "/images/facebook.svg",
         content:
             "Find top talent in a snap with our new Hiring Platform Mobile App! Streamline your recruitment process now.",
-        link: "https://brainwave.ui8.net/shortlink/01234",
+        link: "https://tesseract.garden",
         tags: ["Hiring", "MobileApp", "Recruitment", "HRTech"],
         images: [
             {

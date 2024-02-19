@@ -38,7 +38,7 @@ const SignIn = ({ onClick }: SignInProps) => {
                 Forgot password?
             </button>
             <button className="btn-blue btn-large w-full" type="submit">
-                Sign in with Brainwave
+                Sign in with Tesseract
             </button>
         </form>
     );

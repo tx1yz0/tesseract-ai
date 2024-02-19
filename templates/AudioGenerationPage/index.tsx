@@ -25,7 +25,7 @@ const AudioGenerationPage = () => {
                         <>
                             <p>Text to speech voice:</p>
                             <p>
-                                Introducing &quot;Brainwave&quot;, an AI-powered
+                                Introducing &quot;Tesseract&quot;, an AI-powered
                                 product that can turn any written script into
                                 high-quality audio. Using advanced natural
                                 language processing and text-to-speech

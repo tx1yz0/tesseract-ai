@@ -5,8 +5,8 @@ import { toast } from "react-hot-toast";
 import Icon from "@/components/Icon";
 import ModalShareChat from "@/components/ModalShareChat";
 import Notify from "@/components/Notify";
-import Notifications from "./Notifications";
-import Profile from "./Profile";
+// import Notifications from "./Notifications";
+// import Profile from "./Profile";
 import ChatItem from "./ChatItem";
 import ChatEmpty from "./ChatEmpty";
 
@@ -37,8 +37,8 @@ const RightSidebar = ({ className, visible }: RightSidebarProps) => {
                 )}
             >
                 <div className="absolute top-0 left-0 right-0 flex justify-end items-center h-18 px-9 border-b border-n-3 lg:pr-18 md:pr-16 dark:border-n-5">
-                    <Notifications items={notifications} />
-                    <Profile />
+                    {/* <Notifications items={notifications} /> */}
+                    {/* <Profile /> */}
                     <button
                         className="btn-dark btn-medium"
                         onClick={() => setVisibleModal(true)}
@@ -49,7 +49,7 @@ const RightSidebar = ({ className, visible }: RightSidebarProps) => {
                 <div className="absolute top-24 left-0 right-0 flex items-center px-9 md:px-6">
                     <div className="base2 text-n-4/75">Chat history</div>
                     <div className="ml-3 px-2 bg-n-3 rounded-lg caption1 text-n-4 dark:bg-n-5/50">
-                        {clean ? "0" : "26/100"}
+                        {clean ? "0" : "0/100"}
                     </div>
                     {!clean && (
                         <button
@@ -103,7 +103,7 @@ const RightSidebar = ({ className, visible }: RightSidebarProps) => {
                     )}
                 </div>
                 <div className="absolute left-0 right-0 bottom-0 p-6">
-                    <Link className="btn-blue w-full" href="/">
+                    <Link className="btn-dark w-full" href="/">
                         <Icon name="plus" />
                         <span>New chat</span>
                     </Link>

@@ -25,7 +25,7 @@ const ChatExport = ({}: ChatExportProps) => {
     const [typeFile, setTypeFile] = useState<any>(typesFile[0]);
 
     const [checkboxes, setCheckboxes] = useState([
-        { id: "0", title: "UI8 Production", color: "#3E90F0", isChecked: true },
+        { id: "0", title: "Tesseract Production", color: "#3E90F0", isChecked: true },
         { id: "1", title: "Favourite", color: "#8E55EA", isChecked: true },
         { id: "2", title: "Archived", color: "#8C6584", isChecked: false },
         { id: "3", title: "Deleted", color: "#D84C10", isChecked: false },

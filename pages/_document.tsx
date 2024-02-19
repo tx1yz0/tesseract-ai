@@ -5,12 +5,12 @@ export default function Document() {
         <Html lang="en">
             <Head>
                 <meta
-                    content="Figma UI kit designed to enhance the functionality of ChatGPT"
-                    name="Brainwave - AI UI Kit"
+                    content="AI Financial Autopilot"
+                    name="Tesseract AI"
                 />
-                <meta content="Brainwave - AI UI Kit" property="og:title" />
+                <meta content="Tesseract AI" property="og:title" />
                 <meta
-                    content="Figma UI kit designed to enhance the functionality of ChatGPT"
+                    content="I Financial Autopilot"
                     property="og:description"
                 />
                 <meta
@@ -19,15 +19,15 @@ export default function Document() {
                 />
                 <meta
                     property="og:url"
-                    content="https://ui8.net/ui8/products/brainwave-ai-ui-design-kit"
+                    content="https://tesseract.garden"
                 />
-                <meta property="og:site_name" content="Brainwave - AI UI Kit" />
+                <meta property="og:site_name" content="Tesseract - Financial AI Autopilot" />
                 <meta
-                    content="Brainwave - AI UI Kit"
+                    content="Tesseract - Financial AI Autopilot"
                     property="twitter:title"
                 />
                 <meta
-                    content="Figma UI kit designed to enhance the functionality of ChatGPT"
+                    content="Tesseract - Financial AI Autopilo"
                     property="twitter:description"
                 />
                 <meta
@@ -36,9 +36,9 @@ export default function Document() {
                 />
                 <meta property="og:type" content="Article" />
                 <meta content="summary" name="twitter:card" />
-                <meta name="twitter:site" content="@ui8" />
-                <meta name="twitter:creator" content="@ui8" />
-                <meta property="fb:admins" content="132951670226590" />
+                <meta name="twitter:site" content="@tesseract-ai" />
+                <meta name="twitter:creator" content="@tesseract-ai" />
+                <meta property="fb:admins" content="" />
                 <meta
                     name="viewport"
                     content="width=device-width, initial-scale=1, maximum-scale=1"

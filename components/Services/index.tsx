@@ -8,7 +8,7 @@ type ServicesProps = {};
 const Services = ({}: ServicesProps) => (
     <div className="">
         <div className="mb-4">
-            I’m Brainwave - a versatile and powerful tool for users seeking to
+            I’m Tesseract - a versatile and powerful tool for users seeking to
             enhance their experience with ChatGPT. It offers a wide range of
             advanced features to improve functionality and efficiency. With this
             tool, you can expect the following capabilities:

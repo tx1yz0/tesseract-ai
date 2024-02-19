@@ -48,7 +48,7 @@ const AudioPlayer = ({ edit, onSave }: AudioPlayerProps) => {
                     <>
                         <div className="p-3.5 border-t border-n-3 dark:border-n-5">
                             <span className="bg-primary-1 text-n-1">
-                                Introducing &quot;Brainwave&quot;, an AI-powered
+                                Introducing &quot;Tesseract&quot;, an AI-powered
                                 product that can turn any
                             </span>{" "}
                             written script into high-quality audio. Using

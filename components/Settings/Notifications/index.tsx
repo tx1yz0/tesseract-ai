@@ -10,7 +10,7 @@ const Notifications = ({}: NotificationsProps) => {
     const [checkboxes, setCheckboxes] = useState([
         {
             id: "0",
-            title: "UI8 Platform",
+            title: "Tesseract Platform",
             checkboxs: [
                 { id: "0", title: "New notifications", isChecked: true },
                 {
@@ -36,7 +36,7 @@ const Notifications = ({}: NotificationsProps) => {
         },
         {
             id: "2",
-            title: "From Brainwave app",
+            title: "From Tesseract app",
             checkboxs: [{ id: "0", title: "Mentioned", isChecked: true }],
         },
     ]);
